@@ -1,0 +1,46 @@
+{"menus":[
+    
+    {"id":"1",
+    "nome":"Minhas Solicitações",
+    "Description":"Minhas Solicitações de RMA",
+    "uri":"MyRequests",
+    "icon":"fa-solid fa-hand-point-up"},
+    
+    {"id":"2",
+    "nome":"Solicitações de RMA",
+    "Description":"Solicitações de RMA Da sua Filial",
+    "uri":"RMARequests",
+    "icon":"fa-solid fa-hand-point-up"},
+    
+    {"id":"3",
+    "nome":"Controle De Usuários",
+    "Description":"Controlar Usuários do Sistema.",
+    "uri":"ContUser",
+       "icon":"fa-solid fa-user-astronaut"},
+
+
+    {"id":"4",
+    "nome":"Configurações",
+    "Description":"Configurações do Sistema",
+    "uri":"conf",
+    "icon":"fa-solid fa-gear"},
+
+    {"id":"5",
+    "nome":"Solicitações de RMA (GERAL)",
+    "Description":"Solicitações de RMA de todas as Filiais",
+    "uri":"RMAFullRequests",
+    "icon":"fa-solid fa-globe"},
+    
+    {"id":"6",
+    "nome":"Controle de Usuários(Clientes)",
+    "Description":"Controla os Usuários dos Clientes ",
+    "uri":"ContUserCostumerUser",
+    "icon":"fa-solid fa-users"},
+
+    {"id":"1000",
+    "nome":"Alterar Senha",
+    "Description":"Alterar senha de Usuário",
+    "uri":"newPass",
+    "icon":"fa fa-key"
+    }
+]}
