@@ -1,0 +1,14 @@
+{
+  "configs": {
+    "databasePrime": {
+      "host": "",
+      "db": "",
+      "user": "",
+      "pass": ""
+    },
+    "secrectK": "",
+    "filiais": [],
+    "Linkpainel": "",
+    "Ambiente": "PRD"
+     }
+}
