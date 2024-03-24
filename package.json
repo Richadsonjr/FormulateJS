@@ -1,7 +1,7 @@
 {
-    "name": "richbaseframework",
-    "version": "1.0.0",
-    "description": "Base para projetos node js ",
+    "name": "rich-framework",
+    "version": "1.0.1",
+    "description": "Framework para projetos SSR node.js ",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Richadsonjr/Rich-base-framework.git"
+        "url": "https://github.com/Richadsonjr/Rich-framework.git"
     },
     "keywords": [
         "Brasil",
@@ -22,9 +22,9 @@
     ],
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Richadsonjr/Rich-base-framework/issues"
+        "url": "https://github.com/Richadsonjr/Rich-framework/issues"
     },
-    "homepage": "https://github.com/Richadsonjr/Rich-base-framework",
+    "homepage": "https://github.com/Richadsonjr/Rich-framework",
     "author": "Richadson Santos",
     "dependencies": {
         "axios": "^1.6.7",
