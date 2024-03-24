@@ -1,14 +1,20 @@
 {
-  "configs": {
-    "databasePrime": {
-      "host": "",
-      "db": "",
-      "user": "",
-      "pass": ""
-    },
-    "secrectK": "",
-    "filiais": [],
-    "Linkpainel": "",
-    "Ambiente": "PRD"
-     }
+    "configs": {
+        "databasePrime": {
+            "host": "localhost",
+            "db": "nomeDB",
+            "user": "root",
+            "pass": "SenhaDB"
+        },
+        "secrectK": "",
+        "filiais": [],
+        "Linkpainel": "",
+        "Ambiente": "PRD",
+        "path": {
+            "configFormView": "./public/config/forms",
+            "configTableview": "./public/config/tables",
+            "FormViewExport": "./public/pages",
+            "TableViewExport": "./public/reports"
+        }
+    }
 }
