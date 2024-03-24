@@ -1,9 +1,11 @@
 {
     "name": "rich-framework",
-    "version": "1.0.1",
-    "description": "Framework para projetos SSR node.js ",
+    "version": "1.0.2",
+    "description": "Framework para projetos SSR node.js",
     "main": "index.js",
     "scripts": {
+        "start": "node index.js",
+        "stop": "echo 'Script de parada ainda não implementado'",
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "nodemon start"
     },
@@ -18,6 +20,8 @@
         "brl",
         "Port",
         "web",
+        "framework",
+        "ssr",
         "developer"
     ],
     "license": "ISC",
@@ -29,11 +33,8 @@
     "dependencies": {
         "axios": "^1.6.7",
         "body-parser": "^1.20.2",
-        "child_process": "^1.0.2",
         "cors": "^2.8.5",
-        "curl": "^0.1.4",
         "express": "^4.18.3",
-        "fs": "^0.0.1-security",
         "jsonwebtoken": "^9.0.2",
         "moment-timezone": "^0.5.45",
         "mssql": "^10.0.2",
@@ -46,7 +47,11 @@
         "pm2": "^5.3.1",
         "qs": "^6.11.2",
         "rich-forms-br": "^1.0.9",
-        "rich-utils-br": "^1.0.7",
-        "util": "^0.12.5"
-    }
+        "rich-utils-br": "^1.0.7"
+    },
+    "files": [
+        "api/",
+        "public/",
+        "docs/"
+    ]
 }
