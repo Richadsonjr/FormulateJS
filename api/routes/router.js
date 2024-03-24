@@ -64,7 +64,7 @@ const dataBd = {
 // gera os arquivos de view para cada tabela com arquivo de configuração gerado. 
 router.post('/MakeaViewFile', async(req, res) => {
     try {
-        var directoryPath = config.configs.path.configFormView;
+        var directoryPath = config.configs.path.configTableview;
 
         // Lendo o conteúdo do diretório
         fs.readdir(directoryPath, function(err, files) {
@@ -81,7 +81,7 @@ router.post('/MakeaViewFile', async(req, res) => {
         });
 
 
-        var directoryPath2 = config.configs.path.configTableview;
+        var directoryPath2 = config.configs.path.configFormView;
 
         // Lendo o conteúdo do diretório
         fs.readdir(directoryPath2, function(err, files) {
@@ -93,6 +93,7 @@ router.post('/MakeaViewFile', async(req, res) => {
             files.forEach(async function(file) {
                 let namefile = file
                 namefile = namefile.replace('.json', '')
+                    // console.log(namefile)
                 await saveHTMLView(config.configs.path.FormViewExport, directoryPath2, namefile, 'edit')
             });
         });
