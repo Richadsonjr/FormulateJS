@@ -1,17 +1,21 @@
 {
-    "name": "rich-framework",
-    "version": "1.0.3",
+    "name": "formulatejs",
+    "version": "1.0.17",
     "description": "Framework para projetos SSR node.js",
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
-        "stop": "echo 'Script de parada ainda não implementado'",
+        "postinstall": "node copy-cli.js",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "nodemon start"
+        "dev": "nodemon start",
+        "install-cli": "node cli.js"
+    },
+    "bin": {
+        "create-formulatejs": "./cli.js"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Richadsonjr/Rich-framework.git"
+        "url": "https://github.com/Richadsonjr/FormulateJS.git"
     },
     "keywords": [
         "Brasil",
@@ -26,9 +30,9 @@
     ],
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Richadsonjr/Rich-framework/issues"
+        "url": "https://github.com/Richadsonjr/FormulateJS/issues"
     },
-    "homepage": "https://github.com/Richadsonjr/Rich-framework",
+    "homepage": "https://github.com/Richadsonjr/FormulateJS",
     "author": "Richadson Santos",
     "dependencies": {
         "axios": "^1.6.7",
@@ -44,14 +48,18 @@
         "node-fetch": "^3.3.2",
         "nodemailer": "^6.9.11",
         "nodemon": "^3.1.0",
+        "npm": "^10.5.0",
         "pm2": "^5.3.1",
         "qs": "^6.11.2",
         "rich-forms-br": "^1.0.9",
-        "rich-utils-br": "^1.0.7"
+        "rich-utils-br": "^1.0.7",
+        "tar": "^6.1.2",
+        "uuid": "^9.0.1"
     },
     "files": [
         "api/",
         "public/",
-        "docs/"
+        "cli.js",
+        "copy-cli.js"
     ]
 }

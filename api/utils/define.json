@@ -2,9 +2,9 @@
     "configs": {
         "databasePrime": {
             "host": "localhost",
-            "db": "nomeDB",
+            "db": "database_name",
             "user": "root",
-            "pass": "SenhaDB"
+            "pass": "pass"
         },
         "secrectK": "",
         "filiais": [],
