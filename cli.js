@@ -5,7 +5,7 @@ const path = require('path');
 const https = require('https');
 const tar = require('tar');
 
-const tarballUrl = 'https://registry.npmjs.org/formulatejs/-/formulatejs-1.0.22.tgz'; // Substitua pelo URL do tarball correto
+const tarballUrl = 'https://registry.npmjs.org/formulatejs/-/formulatejs-1.0.23.tgz'; // Substitua pelo URL do tarball correto
 
 const downloadFile = (url, dest) => new Promise((resolve, reject) => {
     const file = fs.createWriteStream(dest);

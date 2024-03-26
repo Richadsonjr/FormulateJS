@@ -10,9 +10,9 @@ framework sem dificuldade evitando curvas de aprendizagem longas cansativas.
   npm init -q
 
 ```
-# Baixe o framework FormulateJS de forma global.
+# Baixe o framework FormulateJS.
 ```bash
- npm i -g formulatejs
+ npm i formulatejs
  ```
 # Faça a instalação do Framework
 
