@@ -1,6 +1,21 @@
 ### FormulateJS
-FormulateJS é uma estrutura de pastas base para criação de aplicações Node.js, projetada para fornecer uma organização eficiente e consistente para seus projetos. A estrutura é composta pelos seguintes elementos:
+FormulateJS é uma estrutura de pastas base para criação de aplicações Node.js, projetada para fornecer uma organização eficiente e consistente para seus projetos. 
+Tem a finalidade de acelerar o desenvolvimento de aplicações web de forma fácil, para que qualquer programador somente com o básico de JavaScript possa operar o 
+framework sem dificuldade evitando curvas de aprendizagem longas cansativas.
 
+## Instalação:
+
+```bash
+ npm i -g formulatejs
+ ```
+
+ ```bash
+    npx create-formulatejs
+ ```
+
+
+
+A estrutura é composta pelos seguintes elementos:
 ## Arquivo app.js:
 O arquivo principal da aplicação, responsável por conter as URLs das páginas principais (como login, home, esqueci minha senha, novo cadastro, etc.), bem como as configurações do roteador e SSL.
 

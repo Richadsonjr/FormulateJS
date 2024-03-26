@@ -5,7 +5,7 @@ const path = require('path');
 const https = require('https');
 const tar = require('tar');
 
-const tarballUrl = 'https://registry.npmjs.org/formulatejs/-/formulatejs-1.0.17.tgz'; // Substitua pelo URL do tarball correto
+const tarballUrl = 'https://registry.npmjs.org/formulatejs/-/formulatejs-1.0.20.tgz'; // Substitua pelo URL do tarball correto
 
 const downloadFile = (url, dest) => new Promise((resolve, reject) => {
     const file = fs.createWriteStream(dest);
@@ -20,10 +20,18 @@ const downloadFile = (url, dest) => new Promise((resolve, reject) => {
     });
 });
 
+// const extractTarball = async(tarballPath, destDir) => {
+//     await tar.x({
+//         file: tarballPath,
+//         cwd: destDir,
+//     });
+// };
+
 const extractTarball = async(tarballPath, destDir) => {
     await tar.x({
         file: tarballPath,
         cwd: destDir,
+        strip: 1, // Ignora o primeiro diretório (package)
     });
 };
 
@@ -31,7 +39,9 @@ async function downloadAndExtract() {
     try {
         // Diretório de destino para os arquivos extraídos
         const currentDir = process.cwd(); // Diretório atual
-        const destinationDir = path.resolve(currentDir, 'node_modules', 'formulatejs'); // Pasta de destino dentro de node_modules
+        console.log(currentDir)
+        const destinationDir = path.resolve(currentDir); // Pasta de destino dentro de node_modules
+        // console.log(destinationDir)
 
         // Nome do arquivo tarball (última parte do URL)
         const tarballFilename = path.basename(tarballUrl);
