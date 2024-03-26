@@ -27,13 +27,26 @@ const downloadFile = (url, dest) => new Promise((resolve, reject) => {
 //     });
 // };
 
+// const extractTarball = async(tarballPath, destDir) => {
+//     await tar.x({
+//         file: tarballPath,
+//         cwd: destDir,
+//         strip: 1, // Ignora o primeiro diretório (package)
+//     });
+// };
+
 const extractTarball = async(tarballPath, destDir) => {
     await tar.x({
         file: tarballPath,
         cwd: destDir,
         strip: 1, // Ignora o primeiro diretório (package)
+        filter: (path, entry) => {
+            // Ignora os arquivos README.md, cli.js e copy-cli.js
+            return !['README.md', 'cli.js', 'copy-cli.js'].includes(path);
+        }
     });
 };
+
 
 async function downloadAndExtract() {
     try {

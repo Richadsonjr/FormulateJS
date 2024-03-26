@@ -4,16 +4,21 @@ Tem a finalidade de acelerar o desenvolvimento de aplicações web de forma fác
 framework sem dificuldade evitando curvas de aprendizagem longas cansativas.
 
 ## Instalação:
+# inicie uma nova aplicação node.js 
+```bash
 
+  npm init -q
+
+```
+# Baixe o framework FormulateJS de forma global.
 ```bash
  npm i -g formulatejs
  ```
+# Faça a instalação do Framework
 
  ```bash
     npx create-formulatejs
  ```
-
-
 
 A estrutura é composta pelos seguintes elementos:
 ## Arquivo app.js:
