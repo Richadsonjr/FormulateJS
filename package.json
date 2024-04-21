@@ -1,6 +1,6 @@
 {
     "name": "formulatejs",
-    "version": "1.0.23",
+    "version": "1.0.24",
     "description": "Framework para projetos SSR node.js",
     "main": "index.js",
     "scripts": {
@@ -51,7 +51,7 @@
         "npm": "^10.5.0",
         "pm2": "^5.3.1",
         "qs": "^6.11.2",
-        "rich-forms-br": "^1.0.9",
+        "rich-forms-br": "^1.0.11",
         "rich-utils-br": "^1.0.7",
         "tar": "^6.1.2",
         "uuid": "^9.0.1"

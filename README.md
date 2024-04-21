@@ -7,7 +7,7 @@ framework sem dificuldade evitando curvas de aprendizagem longas cansativas.
 # inicie uma nova aplicação node.js 
 ```bash
 
-  npm init -q
+  npm init -y
 
 ```
 # Baixe o framework FormulateJS.
@@ -66,12 +66,6 @@ Manipulação de Arquivos:
 A biblioteca utiliza o módulo fs para manipulação de arquivos, incluindo verificação de existência, escrita e leitura de arquivos.
 Em resumo, esta biblioteca é útil para automatizar a geração de formulários e visualizações de tabela para um banco de dados MySQL, simplificando o processo de desenvolvimento web para aplicativos que interagem com bancos de dados.
 
-### Instalação
-Para usar esta library, primeiro você precisa instalá-la em seu projeto. Você pode fazer isso usando npm:
-
-```bash
-npm install Rich-Forms-br
-```
 
 ###Funções Disponíveis
 ```JavaScript
