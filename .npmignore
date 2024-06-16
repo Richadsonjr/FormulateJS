@@ -1,3 +1,6 @@
 # Ignorar arquivos e diretórios específicos
 node_modules/
 .git/
+README.md
+cli.js
+copy-cli.js

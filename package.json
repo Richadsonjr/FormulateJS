@@ -1,17 +1,19 @@
 {
     "name": "formulatejs",
-    "version": "1.0.23",
+    "version": "1.0.27",
     "description": "Framework para projetos SSR node.js",
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
-        "postinstall": "node copy-cli.js",
+        "postinstall": "node ./bin/copy-cli.js",
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "nodemon start",
-        "install-cli": "node cli.js"
+        "install-cli": "node ./bin/cli.js"
     },
     "bin": {
-        "create-formulatejs": "./cli.js"
+        "create-formulatejs": "./bin/cli.js",
+        "build-mysql":"./bin/build-mysql.js",
+        "build-mssql":""
     },
     "repository": {
         "type": "git",
@@ -38,7 +40,7 @@
         "axios": "^1.6.7",
         "body-parser": "^1.20.2",
         "cors": "^2.8.5",
-        "express": "^4.18.3",
+        "express": "^4.19.2",
         "jsonwebtoken": "^9.0.2",
         "moment-timezone": "^0.5.45",
         "mssql": "^10.0.2",
@@ -53,13 +55,18 @@
         "qs": "^6.11.2",
         "rich-forms-br": "^1.0.9",
         "rich-utils-br": "^1.0.7",
+        "swagger-ui-express": "^5.0.1",
         "tar": "^6.1.2",
         "uuid": "^9.0.1"
     },
     "files": [
         "api/",
         "public/",
-        "cli.js",
-        "copy-cli.js"
-    ]
+        "bin/",
+        "bin/cli.js",
+        "bin/copy-cli.js"
+    ],
+    "devDependencies": {
+        "swagger-autogen": "^2.23.7"
+    }
 }
