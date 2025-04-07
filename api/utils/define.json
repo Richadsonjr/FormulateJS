@@ -1,0 +1,20 @@
+{
+    "configs": {
+        "databasePrime": {
+            "host": "localhost",
+            "db": "database_name",
+            "user": "root",
+            "pass": "pass"
+        },
+        "secrectK": "",
+        "filiais": [],
+        "Linkpainel": "",
+        "Ambiente": "PRD",
+        "path": {
+            "configFormView": "./public/config/forms",
+            "configTableview": "./public/config/tables",
+            "FormViewExport": "./public/pages",
+            "TableViewExport": "./public/reports"
+        }
+    }
+}
