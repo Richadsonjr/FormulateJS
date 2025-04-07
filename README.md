@@ -1,7 +1,7 @@
 FormulateJS
 ===========
 
-Framework simples para aplicações Full-Stack em Node.js. O objetivo do FormulateJS é acelerar o desenvolvimento de CRUDs, relatórios e interfaces dinâmicas a partir da estrutura do banco de dados.
+Framework simples para aplicações Full-Stack em Node.js. O objetivo do FormulateJS é acelerar o desenvolvimento de CRUDs, relatórios, API's e interfaces dinâmicas a partir da estrutura do banco de dados.
 
 🚀 Instalação
 -------------
