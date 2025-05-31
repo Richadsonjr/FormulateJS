@@ -1,6 +1,6 @@
 {
     "name": "formulatejs",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "Framework para projetos SSR node.js",
     "main": "main.js",
     "scripts": {
