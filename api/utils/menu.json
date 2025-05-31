@@ -1,0 +1,29 @@
+{
+    "menus": [
+
+        {
+            "id": "1",
+            "nome": "Menu01s",
+            "Description": "Descrição",
+            "uri": "MyRequests",
+            "icon": "fa-solid fa-hand-point-up"
+        },
+
+
+        {
+            "id": "2",
+            "nome": "Menu02",
+            "Description": "Descrição",
+            "uri": "ContUserCostumerUser",
+            "icon": "fa-solid fa-users"
+        },
+
+        {
+            "id": "1000",
+            "nome": "Alterar Senha",
+            "Description": "Alterar senha de Usuário",
+            "uri": "newPass",
+            "icon": "fa fa-key"
+        }
+    ]
+}
