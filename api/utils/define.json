@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "configs": {
         "databasePrime": {
@@ -18,25 +17,4 @@
             "TableViewExport": "./public/reports"
         }
     }
-=======
-{
-    "configs": {
-        "databasePrime": {
-            "host": "localhost",
-            "db": "database_name",
-            "user": "root",
-            "pass": "pass"
-        },
-        "secrectK": "",
-        "filiais": [],
-        "Linkpainel": "",
-        "Ambiente": "PRD",
-        "path": {
-            "configFormView": "./public/config/forms",
-            "configTableview": "./public/config/tables",
-            "FormViewExport": "./public/pages",
-            "TableViewExport": "./public/reports"
-        }
-    }
->>>>>>> 7a7339d8af9a2228acf0d620d15f2daca4e838d5
 }
